@@ -4,12 +4,12 @@
 
 * Chapter 1: Introduction
   * What is React?
-  * Developement of React
+  * Development of React
   * Why Would I Want to Use React?
   * Why is React so popular?
 * Chapter 2: Key Concepts
   * How Does React View the World?
-    * How To Seperate Concers: Write Components, Not Templates
+    * How To Separate Concerns: Write Components, Not Templates
     * All Data Binding Abstractions Leak
     * How React Manages State
   * React's Design Under the Hood
@@ -27,10 +27,14 @@
   * Testing
   * Optimization
 
-Any developer working in the modern web has mostly likely heard of React by now and perhaps are already using it to build web applications. Among front-end developers, React has quickly becoming the preferred JavaScript library for building dynamic client-side web application. It's popularity is quickly surpassing that of rival projects such as Angular and Ember, forcing those projects to adopt some of the concepts React helped introduce to web development. React provides a very simple API making it very easy to get up and running. It's beauty comes from it's simplicy, easy of use, and lightnight fast performance.
+Most JavaScript developers today have heard of React by now. Many are already using it to build their web applications. React has quickly become the preferred JavaScript library for building client-side web applications. Its popularity quickly surpassed frameworks like Angular and Ember, forcing those projects to radically alter their APIs. Angular 2 and Ember 2 are really attempts at bringing in ideas popularized by React.
 
-That said, very few React developers actually understand exactly how it works under the hood. In some ways, this is due to how well designed React is compared to other projects. Unlike Angular or Ember, you don't really need to understand how React works in order to get a non-trivial web application up and running. You can build large web applications effectively without ever having to know how React works under the hood. In contrast, every Angular developer need to understand how $apply and $scope work, amoung a million of other inner workings of that particular framework. With React, understanding it's internals is not a show stopper.
+It's popularity has nothing to do with its newness. Other libraries/frameworks have come out since React was open sourced, as well as new editions of Angular and Ember, yet its popularity remains. This is due to React's much cleaner, simpler, and powerful API. React's architecture philosophy is also much better suited for managing stateful applications since it makes managing state very explicit. It is also easy and fun to learn. Once you learn how to use React, it will become clear that it's a huge leap forward toward a more perfect API for building JavaScript applications in the browser and beyond.
 
-Still, the internals of React are fascinating and worth learning. React's way of thinking is completely different from what we're used to in other JavaScript frameworks. React essentially has arbitraged successful ideas from the gaming industry and early versions of Windows to the DOM and creating some of their own ideas, completely changing the way we think about how to we should build scalable and performant web applications.
+Surprisingly, very few engineers actually understand exactly how it works under the hood. In some ways, this is due to how well React's abstractions are designed. You do not need to understand exactly how it works because it's abstractions are not as leaky. You can build very large web applications without ever having to know how React works. In contrast, working with a framework like Angular requires deep understanding of how its internals work, because its abstractions often fail on non-trivial applications. You need to understand how $apply and $scope work, among a million of other inner workings of that particular framework. With React, understanding it's internals is not a show stopper.
 
-This tutorial/free ebook is meant to be an introduction to React, but it dives much deeper into the ideas behind React. Rather than cargo-culting on what's popular, the aim here is to how just tell you how to use React, but exactly how it works and why you should use it. React's API footprint is actually pretty narrow, so if you're looking for a quick tutorial there are resources probably better suited for you out there. We're also going to go over why React is great for working with existing legacy code and third-party libraries such as jQuery plugins, and how to go about doing so. We're going to learn all this with a mixture of explanations and building a Star Trek video game using React to render all the components. By the end of this book you should fully understand React and it's architectural philosophy, and know how to test and debug a React application, as well as learn React patterns and anti-patterns. You should also know how React works great with third party libraries and frameworks and know how to do so.
+That said, React's internals are very fascinating and worth learning. React's way of thinking is very different to what we're using to in other JavaScript projects. React's successfully arbitraged ideas from other industries such as gaming and early versions of Windows, bringing them to the DOM. Now, those ideas are being reapplied to other platforms with React Native, React Canvas, React-Three, and now React Native for OS X.
+
+This book is meant for beginners. As such, it's very much an introduction to React. But in addition to being somewhat vocational, this book aims to dive much deeper into the ideas behind React. The idea is to avoid cargo-culting and really understand what makes React different and why you would want to use it in the real world.
+
+After finishing this book, you should know the most important parts of React's API, its architectural philosophy, React patterns and antipatterns, and how to work with existing legacy code and third-party libraries such as jQuery plugins. The first half of the book will be mostly explanations, while the second book focuses on building a demo applications. Rather than doing the same old boring Todo app, we will be building a simple Star Trek video game. Games have much more state and interactivity that a Todo app, so it's the perfect way to demonstrate the power and flexibility of React. But most of all, it'll be fun!
